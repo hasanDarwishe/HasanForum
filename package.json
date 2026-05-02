@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is a portfolio project, showing my abilities to build a full stack websites with advanced backend.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "concurrently --names \"CLIENT,SERVER\" -c \"green,blue\" \"cd client && pnpm dev\" \"cd server && pnpm dev\""
   },
   "keywords": [
     "forum",

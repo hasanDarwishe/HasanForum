@@ -1,0 +1,12 @@
+{
+  "watch": ["src"],
+  "ext": "ts,json",
+  "ignore": ["src/**/*.spec.ts", "src/**/*.test.ts"],
+  "exec": "tsx src/server.ts",
+  "delay": 1000,
+  "quiet": false,
+  "verbose": false,
+  "events": {
+    "restart": "echo '🔄 App restarted due to changes'"
+  }
+}

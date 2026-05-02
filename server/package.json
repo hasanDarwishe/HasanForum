@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "This is a portfolio project, showing my abilities to build a full stack websites with advanced backend.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon"
   },
   "keywords": [
     "forum",
