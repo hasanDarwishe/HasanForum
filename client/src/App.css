@@ -23,14 +23,24 @@ nav.navigator > .item {
   transition: all .2s;
   cursor: pointer;
   user-select: none;
+  text-decoration: none;
 }
 
 nav.navigator > .item:hover {
   background-color: rgba(100, 100, 100, .2);
 }
 
-nav.navigator > i.bi {
+nav.navigator i.bi {
   aspect-ratio: 1;
   font-size: var(--navigator-icon-size);
   color: var(--navigator-icon-color);
+}
+
+.homeTitle {
+  font-size: larger;
+  color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

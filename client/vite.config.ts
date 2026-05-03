@@ -16,6 +16,12 @@ export default defineConfig(({mode}) => {
           changeOrigin: true
         }
       }
+    },
+    resolve: {
+      alias: {
+        "@pages": path.resolve(__dirname, "./pages"),
+        "@components": path.resolve(__dirname, "./components")
+      }
     }
   }
 })
