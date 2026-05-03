@@ -1,4 +1,7 @@
 :root {
+  --navigator-padding: 10px;
+  --navigator-icon-size: 40px;
+  --navigator-icon-color: rgb(0, 115, 255);
 }
 
 @media (prefers-color-scheme: dark) {
